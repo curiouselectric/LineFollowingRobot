@@ -296,7 +296,7 @@ The light dependent resistors (LDR) are soldered onto the underside of the PCB (
 They need to be inserted and solder so that the head of the LDR is around 5mm from the ground.
 The LDRs do not have a polarity.
 
-.. image:: Photos/PCB17_sm.jpg?raw=true
+.. image:: Photos/LDR_sm.jpg?raw=true
    :width: 400px
 
 
@@ -321,7 +321,7 @@ The wheels fit onto the motor shaft and are held in place with the two small sel
 
 The silicone tyres fit over the wheels to provide grip.
 
-.. image:: Photos/PCB19.jpg?raw=true
+.. image:: Photos/Motor_sm.jpg?raw=true
   :width: 400px
 
 Step 14: Finished!
