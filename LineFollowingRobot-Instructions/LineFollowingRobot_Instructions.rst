@@ -13,6 +13,10 @@ This kit is designed as a **"Learn to Solder"** kit.
 
 Overview
 -------
+
+.. image:: Photos/InUse1_sm.jpg?raw=true
+   :width: 400px
+
 This robot will follow a black line on a light coloured background.
 
 The sensors at the front of the robot detect the change in light and control two motors to follow the line.
@@ -116,11 +120,6 @@ Hardware:
 | 1    |  Caster nut     |   M5 Ball nut            |
 +------+-----------------+--------------------------+
 
-This photo shows where each of the components is placed on the PCB.
-
-.. image:: Photos/components3_sm.jpg?raw=true
-   :width: 400px
-
 Tools Required
 --------------
 The following tools will be required:
@@ -179,12 +178,15 @@ Solder these into the respective marked places on the PCB.
 .. image:: Photos/PCB1_sm.jpg?raw=true
    :width: 400px
 
+.. image:: Photos/PCB2_sm.jpg?raw=true
+  :width: 400px
+
 Step 2: Solder IC Socket
 ------------------------
 
 Solder the IC socket into the holes marked IC1. Ensure the notch on the IC socket aligns with the notch on the silk-screen.
 
-.. image:: Photos/PCB2_sm.jpg?raw=true
+.. image:: Photos/PCB3_sm.jpg?raw=true
    :width: 400px
 
 Info: The data sheet for the IC is here: https://www.onsemi.com/pub/Collateral/LM393-D.PDF
@@ -194,19 +196,18 @@ Step 3: Solder the Red LEDs
 There are two RED LEDs to solder in locations D1 and D2.
 You must ensure correct polarity of these LEDs.
 
-The positive lead will be the longer lead. The negative lead has a slightly flat side to the LED case. These should align with the markings "+" and "FLAT" on the PCB.
+The positive lead will be the longer lead. The negative lead has a slightly flat side to the LED case. These should align with the markings "+" on the PCB.
 
-The LEDs are designed to be bent down to align with the PCB into the cut-outs.
 Please see photos for clarification.
 
-.. image:: Photos/PCB3_sm.jpg?raw=true
+.. image:: Photos/PCB4_sm.jpg?raw=true
    :width: 400px
 
 Step 4: Solder Adjustable Resistors
 ------------------------
 There are two 10k adjustable resistors to solder into holes marked R1 and R2.
 
-.. image:: Photos/PCB4_sm.jpg?raw=true
+.. image:: Photos/PCB5_sm.jpg?raw=true
    :width: 400px
 
 Step 5: Solder Switch
@@ -215,7 +216,6 @@ There is one on/off switch to be soldered into the holes marked S1.
 
    .. image:: Photos/PCB6_sm.jpg?raw=true
       :width: 400px
-
 
 Step 6: Solder Capacitors
 ------------------------
@@ -228,7 +228,7 @@ There is a white line marked on the capacitor which indicate the negative pin. T
 Another way to find the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
 Please see photos for clarification.
 
-.. image:: Photos/PCB6_sm.jpg?raw=true
+.. image:: Photos/PCB7_sm.jpg?raw=true
    :width: 400px
 
 
@@ -245,42 +245,81 @@ The transistors have three pins and must be placed into the holes so that the fl
 Step 8: Attach Battery Holder
 -----------------------------
 
+The battery holder is stuck onto the top of the PCB. The wires from the holder go through the hole at the back edge of the PCB and are soldered on the underside of the PCB.
+You must ensure correct polarity with the RED lead going to the BT1 pad marked + and the BLACK wire going to the other pad.
 
-.. image:: Photos/PCB11_sm.jpg?raw=true
+.. image:: Photos/PCB9_sm.jpg?raw=true
    :width: 400px
+
+   .. image:: Photos/PCB10_sm.jpg?raw=true
+      :width: 400px
 
  Step 9: Attach Motors
  -----------------------------
+The motors are stuck onto the underside of the PCB. With the wire included make 2 cables with 2 wires in each.
+Solder these wires to the motor pads (sticking out from the back of the motors).
 
+These are soldered to the M1 and M2 pads on the underside of the PCB.
 
- .. image:: Photos/PCB11_sm.jpg?raw=true
-    :width: 400px
-
-Step 10: Solder Light Dependent Resistors
------------------------------
-
-
-.. image:: Photos/PCB11_sm.jpg?raw=true
-   :width: 400px
-
-
-Step 11: Solder LEDs
------------------------------
-
+The wire attached to the motor the furthest away from the PCB will go to the pad closest to the red LED. The wire connecting to the motor closest to the PCB will go on the other pad.
+Please see photos for clarification.
 
 .. image:: Photos/PCB11_sm.jpg?raw=true
   :width: 400px
 
-Step 12: Attach front caster
+.. image:: Photos/PCB12_sm.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/PCB13_sm.jpg?raw=true
+ :width: 400px
+
+.. image:: Photos/PCB14_sm.jpg?raw=true
+  :width: 400px
+
+.. image:: Photos/PCB15_sm.jpg?raw=true
+  :width: 400px
+
+
+Step 10: Attach front caster
 -----------------------------
 
+The front caster is built using an M5 bolt, along with a nut and a ball nut on the end.
+The bolt goes through the PCB and is held in place with the M5 nut. The M5 ball nut is screwed on to the end.
+As the ball nut is round it will glide along the ground.
 
-.. image:: Photos/PCB11_sm.jpg?raw=true
+.. image:: Photos/PCB16_sm.jpg?raw=true
+  :width: 400px
+
+Step 11: Solder Light Dependent Resistors
+-----------------------------
+The light dependent resistors (LDR) are soldered onto the underside of the PCB (see photo). These go into the holes marked R13 and R14 (on the underside of the PCB).
+They need to be inserted and solder so that the head of the LDR is around 5mm from the ground.
+The LDRs do not have a polarity.
+
+.. image:: Photos/PCB17_sm.jpg?raw=true
    :width: 400px
+
+
+Step 12: Solder LEDs
+-----------------------------
+The last two LEDs are super-bright LEDs. They provide the light which is reflected back from a white surface, but not from a black surface.
+
+You must ensure correct polarity of these LEDs.
+
+The positive lead will be the longer lead. The negative lead has a slightly flat side to the LED case. These should align with the markings "+" on the PCB.
+
+Please see photos for clarification.
+
+.. image:: Photos/PCB18_sm.jpg?raw=true
+  :width: 400px
+
 
 Step 13: Add Wheels
 -----------------------------
 
+The wheels fit onto the motor shaft and are held in place with the two small self-tapping screws.
+
+The silicone tyres fit over the wheels to provide grip.
 
 .. image:: Photos/PCB19.jpg?raw=true
   :width: 400px
@@ -292,16 +331,10 @@ Add some AA batteries into the battery holder (double check their polarity!). Pr
 
 You can adjust R1 and R2 to adjust the sensitivity of each sensor. Typically around half-way on each resistor works well.
 
-.. image:: Photos/PCB13_sm.jpg?raw=true
-   :width: 400px
-
 .. image:: Photos/InUse1_sm.jpg?raw=true
    :width: 400px
 
 .. image:: Photos/InUse2_sm.jpg?raw=true
-   :width: 400px
-
-.. image:: Photos/InUse3_sm.jpg?raw=true
    :width: 400px
 
 
