@@ -29,7 +29,7 @@ This kit is fully analog and requires no programming.
 Kit Contents
 ------------
 
-.. image:: Photos/components1_sm.jpg?raw=true
+.. image:: Photos/Components1_sm.jpg?raw=true
    :width: 400px
 
 This kit contains the following parts:
@@ -134,7 +134,7 @@ The following tools will be required:
 | Side-cutter     | For cutting excess leads |
 +-----------------+--------------------------+
 
-.. image:: Photos/tools1.png?raw=true
+.. image:: Photos/tools1_sm.png?raw=true
    :width: 400px
 
 A useful guide for learning to solder is available here:
