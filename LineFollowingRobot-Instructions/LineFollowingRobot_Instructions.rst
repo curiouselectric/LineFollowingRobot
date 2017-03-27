@@ -356,7 +356,7 @@ Please also double check the soldering to ensure that there are no short circuit
 
 Circuit Schematic
 -------------------
-.. image:: Photos/Schematic.png?raw=true
+.. image:: Photos/Schematic_sm.jpg?raw=true
    :width: 400px
 
 Suppliers Information
